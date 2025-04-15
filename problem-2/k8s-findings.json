@@ -1,0 +1,13 @@
+{
+  "scanResult": "Sample findings from Kubescape",
+  "issues": [
+    {
+      "type": "Security Misconfiguration",
+      "description": "HostPath volumes used in deployment"
+    },
+    {
+      "type": "RBAC",
+      "description": "ClusterRole has admin access"
+    }
+  ]
+}
